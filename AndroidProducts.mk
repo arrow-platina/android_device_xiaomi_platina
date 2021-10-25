@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_platina.mk
+    $(LOCAL_DIR)/arrow_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_platina-user \
-    lineage_platina-userdebug \
-    lineage_platina-eng
+    arrow_platina-user \
+    arrow_platina-userdebug \
+    arrow_platina-eng
