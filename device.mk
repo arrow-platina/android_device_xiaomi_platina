@@ -76,6 +76,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # VNDK
+PRODUCT_COPY_FILES += \
+    prebuilts/vndk/v29/arm/arch-arm-armv7-a-neon/shared/vndk-core/libpiex.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpiex-v29.so
+
 PRODUCT_EXTRA_VNDK_VERSIONS := 30
 
 # Wifi
