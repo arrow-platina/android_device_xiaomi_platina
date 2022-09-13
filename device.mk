@@ -43,6 +43,11 @@ PRODUCT_COPY_FILES += \
 # Consumerir
 BOARD_HAVE_IR := false
 
+# Camera
+PRODUCT_PACKAGES += \
+    libMegviiFacepp-0.5.2 \
+    libmegface 
+
 # Display calibration
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/display/qdcm_calib_data_boe_fhd_video_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_boe_fhd_video_dsi_panel.xml \
