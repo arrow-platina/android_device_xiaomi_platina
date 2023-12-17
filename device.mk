@@ -7,10 +7,6 @@
 # Inherit from sdm660-common
 $(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
 
-# AAPT resource flavor
-PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-
 # APEX
 ENABLE_APEX := true
 
